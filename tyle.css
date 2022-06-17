@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+ 
+
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 657px;
+    background-image: url(./imgs/wallpaperbetter\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+
+.div__link{
+    display: flex;
+    flex-direction: column;
+ 
+    position: relative;
+    right: 400px;
+    height: 200px;
+    width: 35px;
+   
+
+
+}
+.div__link i{
+    margin-top: 10px;
+    padding: 30px;
+    color:aqua;
+}
+
+.div__central{
+    color: white;
+  
+
+}
+
+.div__central h1{
+    font-size: 70px;
+}
+
+.div__central h5{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.div__central h5 span{
+    color: rgb(43, 211, 226);
+}
+
+.div__central a{
+    border: solid 2px yellow;
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color :aqua;
+    font-weight: 900;
+    
+}
+
+.div__central a:last-child{
+    background-color: transparent;
+    border: solid 2px yellow;
+}
+
+
+
+.div__central a i{
+    margin-right: 10px;
+    
+
+}
+
+.div__central a:hover{
+    color: white;
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    background-color: black;
+    padding: 160px 100px; 
+    justify-content: center;
+}
+
+.main .sobre__mi{
+
+    color: white;
+    margin: 30px;
+}
+
+ .sobre__mi h2{
+    font-size: 30px;
+    
+ }
+
+ .linea{
+    width: 120px;
+    height: 3px;
+    background-color: aqua;
+    margin: 5px 0 18px 0;
+ }
+.sobre__mi p{
+    width: 500px;
+    padding: 10px;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.sobre__mi a{
+    background-color: rgb(2, 3, 3);
+    padding: 10px 35px;
+    display: inline-block;
+    margin: 15px 10px;
+    text-decoration: none;
+    color: aqua;
+    border-radius: 5px;
+    border:  solid 3px yellow;
+    font-weight: 900;
+}
+
+.sobre__mi a:hover{
+    background-color:aqua;
+    color: black;
+    
+}
+
+.habilidades{
+    padding: 100px;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    background-color:rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+   
+   
+}
+
+.skill .habi{
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .main .sobre__mi{
+
+        color: white;
+        margin: 30px;
+    }
+    
+     .sobre__mi h2{
+        
+        text-align: center;
+        
+     }
+    
+     .linea{
+        margin: auto;
+
+     }
+    .sobre__mi p{
+        width: 100%;
+       
+    }
+     
+    .sobre__mi a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .habilidades{
+        text-align: center;
+    }
+    
+    .skill{
+      flex-direction: column;
+      padding: 15px;
+        
+       
+       
+    }
+    
+    .skill {
+       
+        margin-bottom: 15px;
+    }
+
+    .habi{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    
+    
+
+    
+  }

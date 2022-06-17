@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(../imgs/fondocv.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Lato', sans-serif;
+}
+
+.container{
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+     background-color:rgb(20, 15, 56);
+     
+}
+
+.content-1{ 
+   width: 80%;
+   padding: 20px;  
+}
+
+.nombre{
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+    color: #00FBF2;  
+}
+
+.titulos{
+    color:white;
+    font-size: 30px;
+    margin:18px 0 ;
+    display: inline-block;
+}
+
+.rayita{
+    border-bottom:solid #00FBF2 3px ;
+    position: relative;
+    top: -10px;
+    width: 50px;
+}
+
+
+.negrita{
+    font-weight: 600;
+}
+
+ span{
+    color: gray;
+}
+
+ p, li, a {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.content-2{
+   
+    background-color: rgb(59, 59, 59);
+    padding: 15px;  
+}
+
+img{
+    position: relative;
+    left: 7%;
+}
+
+.link-contacto{
+    display: flex;
+    flex-direction: column; 
+}
+
+.link-contacto a{
+    color: rgb(141, 141, 143);
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+         
+    }
+    
+    .content-1{ 
+       text-align: center
+       
+    }
+
+    .rayita{
+        margin: 0 auto;
+    }
+
+    .content-2{
+   
+       text-align: center;
+    }
+    
+  }
